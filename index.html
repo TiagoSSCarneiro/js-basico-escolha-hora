@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="style.css">
     <title>Hora do Dia</title>
 </head>
-<body onload="carregar()">
+<body>
     <header>
         <h1>Hora do Dia</h1>
+        <input class="campo-txt" type="number" name="hora" id="txthr" placeholder="Digite a hora atual">
+        <input class="btn-hora" type="button" value="Descobrir" onclick="horas()" id="btn">
     </header>
     <section>
-        <div id="msg">Agora são</div>
+        <div id="msg">Bem vindo! Digite as horas.</div>
         <div id="foto">
             <img id="imagem" src="manha.png" alt="foto do amanhacer" class="fotos">
         </div>
